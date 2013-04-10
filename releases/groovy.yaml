@@ -858,11 +858,13 @@ repositories:
   rocon_rqt_plugins:
     packages:
       rocon_gateway_graph:
+        subfolder: rocon_gateway_graph
       rocon_rqt_plugins:
+        subfolder: rocon_rqt_plugins
     tags:
-      release: release/{package}/{upstream_version}
+      release: release/groovy/{package}/{version}
     url: https://github.com/yujinrobot-release/rocon_rqt_plugins-release.git
-    version: 0.3.0-0
+    version: 0.3.1-0
   rocon_tutorials:
     packages:
       chatter_concert:
@@ -1083,6 +1085,7 @@ repositories:
     version: 0.2.16-0
   rqt_robot_plugins:
     packages:
+      rqt_moveit:
       rqt_nav_view:
       rqt_pose_view:
       rqt_robot_dashboard:
@@ -1091,10 +1094,11 @@ repositories:
       rqt_robot_steering:
       rqt_runtime_monitor:
       rqt_rviz:
+      rqt_tf_tree:
     tags:
       release: release/groovy/{package}/{version}
     url: https://github.com/ros-gbp/rqt_robot_plugins-release.git
-    version: 0.2.9-0
+    version: 0.2.13-1
   rviz:
     tags:
       release: release/groovy/{package}/{version}
