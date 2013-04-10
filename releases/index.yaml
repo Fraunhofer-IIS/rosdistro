@@ -15,7 +15,7 @@ distributions:
     doc_folder: ../doc/groovy
   hydro:
     release: hydro.yaml
-    release_build: []
+    release_build: [hydro-build.yaml]
     release_cache: http://ros.org/rosdistro/hydro-cache.yaml
     test: hydro-devel.yaml
     test_build: [hydro-devel-build.yaml]
