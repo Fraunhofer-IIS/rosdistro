@@ -380,12 +380,6 @@ repositories:
       release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/korg_nanokontrol-release.git
     version: 0.1.1-0
-  langs:
-    url: https://github.com/ros-gbp/langs-release.git
-    version:
-  langs-dev:
-    url: https://github.com/ros-gbp/langs-dev-release.git
-    version:
   laser_geometry:
     url: https://github.com/ros-gbp/laser_geometry-release.git
     version:
