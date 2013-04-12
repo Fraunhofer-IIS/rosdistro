@@ -64,6 +64,11 @@ repositories:
       settlerlib:
     url: https://github.com/ros-gbp/calibration-release.git
     version:
+  camera1394:
+    tags:
+      release: release/hydro/{package}/{version}
+    url: https://github.com/ros-drivers-gbp/camera1394-release.git
+    version: 1.9.0-0
   camera_info_manager_py:
     tags:
       release: release/hydro/{package}/{version}
