@@ -591,6 +591,30 @@ repositories:
       release: release/groovy/{package}/{version}
     url: https://github.com/ros-gbp/moveit_setup_assistant-release.git
     version: 0.3.6-0
+  multi_level_map:
+    packages:
+      multi_level_map:
+      multi_level_map_msgs:
+      multi_level_map_server:
+      multi_level_map_utils:
+    tags:
+      release: release/groovy/{package}/{version}
+    url: https://github.com/utexas-bwi-gbp/multi_level_map-release.git
+    version: 0.0.1-0
+  multimaster_fkie:
+    packages:
+      default_cfg_fkie:
+        subfolder: default_cfg_fkie
+      master_discovery_fkie:
+        subfolder: master_discovery_fkie
+      master_sync_fkie:
+        subfolder: master_sync_fkie
+      node_manager_fkie:
+        subfolder: node_manager_fkie
+    tags:
+      release: release/groovy/{package}/{version}
+    url: https://github.com/fkie/multimaster_fkie
+    version: 0.2.0-0
   nav2djs:
     tags:
       release: release/{package}/{upstream_version}

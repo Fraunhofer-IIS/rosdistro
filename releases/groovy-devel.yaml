@@ -167,6 +167,19 @@ repositories:
     type: git
     url: https://github.com/utexas-bwi/multi_level_map.git
     version: master
+  multimaster_fkie:
+    packages:
+      default_cfg_fkie:
+        subfolder: default_cfg_fkie
+      master_discovery_fkie:
+        subfolder: master_discovery_fkie
+      master_sync_fkie:
+        subfolder: master_sync_fkie
+      node_manager_fkie:
+        subfolder: node_manager_fkie
+    type: git
+    url: https://github.com/fkie/multimaster_fkie
+    version: 0.2.0-0
   nav2djs:
     type: git
     url: https://github.com/RobotWebTools/nav2djs.git
