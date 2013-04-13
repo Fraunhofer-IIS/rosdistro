@@ -178,7 +178,7 @@ repositories:
       node_manager_fkie:
         subfolder: node_manager_fkie
     type: git
-    url: https://github.com/fkie/multimaster_fkie
+    url: https://github.com/fkie/multimaster_fkie.git
     version: 0.2.0-0
   nav2djs:
     type: git
