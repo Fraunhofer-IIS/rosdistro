@@ -391,6 +391,11 @@ repositories:
       release: release/groovy/{package}/{version}
     url: https://github.com/ros-gbp/joystick_drivers-release.git
     version: 1.9.9-0
+  jsk_hark_msgs:
+    tags:
+      release: release/groovy/{package}/{version}
+    url: https://github.com/start-jsk/jsk_hark_msgs-release.git
+    version: 1.0.0-0
   jsk_openni_kinect:
     tags:
       release: release/groovy/{package}/{version}
@@ -1197,9 +1202,9 @@ repositories:
       yocs_velocity_smoother:
       yujin_ocs:
     tags:
-      release: release/{package}/{upstream_version}
+      release: release/groovy/{package}/{version}
     url: https://github.com/yujinrobot-release/yujin_ocs-release.git
-    version: 0.2.2-0
+    version: 0.2.3-0
   zeroconf_avahi_suite:
     packages:
       zeroconf_avahi:
