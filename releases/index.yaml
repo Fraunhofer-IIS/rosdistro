@@ -12,11 +12,11 @@ distributions:
     release_cache: http://ros.org/rosdistro/groovy-cache.yaml
     test: groovy-devel.yaml
     test_build: [groovy-devel-build.yaml]
-    doc_folder: ../doc/groovy
+    doc: groovy-doc.yaml
   hydro:
     release: hydro.yaml
     release_build: [hydro-build.yaml]
     release_cache: http://ros.org/rosdistro/hydro-cache.yaml
     test: hydro-devel.yaml
     test_build: [hydro-devel-build.yaml]
-    doc_folder: ../doc/hydro
+    doc: hydro-doc.yaml
