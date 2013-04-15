@@ -12,11 +12,6 @@ repositories:
       release: release/{package}/{upstream_version}
     url: https://github.com/ros-gbp/actionlib-release.git
     version: 1.9.11-0
-  actionlibjs:
-    tags:
-      release: release/{package}/{upstream_version}
-    url: https://github.com/RobotWebTools-release/actionlibjs-release.git
-    version: 0.2.0-0
   ar_track_alvar:
     tags:
       release: release/{package}/{upstream_version}
@@ -406,11 +401,6 @@ repositories:
       release: release/groovy/{package}/{version}
     url: https://github.com/start-jsk/jsk_rviz_plugins-release.git
     version: 0.0.9-0
-  keyboardteleopjs:
-    tags:
-      release: release/{package}/{upstream_version}
-    url: https://github.com/RobotWebTools-release/keyboardteleopjs-release.git
-    version: 0.2.0-0
   kobuki:
     packages:
       kobuki:
@@ -493,11 +483,6 @@ repositories:
       release: release/groovy/{package}/{version}
     url: https://github.com/ros-gbp/manipulation_msgs-release.git
     version: 0.1.8-0
-  map2djs:
-    tags:
-      release: release/{package}/{upstream_version}
-    url: https://github.com/RobotWebTools-release/map2djs-release.git
-    version: 0.2.0-0
   message_generation:
     tags:
       release: release/{package}/{upstream_version}
@@ -508,11 +493,6 @@ repositories:
       release: release/{package}/{upstream_version}
     url: https://github.com/ros-gbp/message_runtime-release.git
     version: 0.4.11-0
-  mjpegcanvasjs:
-    tags:
-      release: release/{package}/{upstream_version}
-    url: https://github.com/RobotWebTools-release/mjpegcanvasjs-release.git
-    version: 0.2.0-0
   moveit_commander:
     tags:
       release: release/groovy/{package}/{version}
@@ -601,11 +581,6 @@ repositories:
       release: release/groovy/{package}/{version}
     url: https://github.com/utexas-bwi-gbp/multi_level_map-release.git
     version: 0.0.1-0
-  nav2djs:
-    tags:
-      release: release/{package}/{upstream_version}
-    url: https://github.com/RobotWebTools-release/nav2djs-release.git
-    version: 0.2.0-0
   nodelet_core:
     packages:
       nodelet:
@@ -624,12 +599,12 @@ repositories:
     tags:
       release: release/groovy/{package}/{version}
     url: https://github.com/ros-gbp/object_recognition_core-release.git
-    version: 0.5.1-0
+    version: 0.5.2-0
   object_recognition_linemod:
     tags:
       release: release/groovy/{package}/{version}
     url: https://github.com/ros-gbp/object_recognition_linemod-release.git
-    version: 0.2.11-0
+    version: 0.2.12-0
   object_recognition_msgs:
     tags:
       release: release/groovy/{package}/{version}
@@ -639,7 +614,7 @@ repositories:
     tags:
       release: release/groovy/{package}/{version}
     url: https://github.com/ros-gbp/object_recognition_reconstruction-release.git
-    version: 0.2.22-0
+    version: 0.2.23-0
   object_recognition_renderer:
     tags:
       release: release/groovy/{package}/{version}
@@ -654,17 +629,17 @@ repositories:
     tags:
       release: release/groovy/{package}/{version}
     url: https://github.com/ros-gbp/object_recognition_tabletop-release.git
-    version: 0.2.21-0
+    version: 0.2.22-0
   object_recognition_tod:
     tags:
       release: release/groovy/{package}/{version}
     url: https://github.com/ros-gbp/object_recognition_tod-release.git
-    version: 0.4.14-0
+    version: 0.4.15-0
   object_recognition_transparent_objects:
     tags:
       release: release/groovy/{package}/{version}
     url: https://github.com/ros-gbp/object_recognition_transparent_objects-release.git
-    version: 0.3.14-0
+    version: 0.3.15-0
   octomap:
     packages:
       octomap:
@@ -1024,11 +999,6 @@ repositories:
       release: release/{package}/{upstream_version}
     url: https://github.com/ros-gbp/rosdoc_lite-release.git
     version: 0.2.2-0
-  rosjs:
-    tags:
-      release: release/{package}/{upstream_version}
-    url: https://github.com/RobotWebTools-release/rosjs-release.git
-    version: 0.2.0-0
   roslisp:
     tags:
       release: release/{package}/{upstream_version}

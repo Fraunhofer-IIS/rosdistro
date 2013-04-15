@@ -7,10 +7,6 @@ repositories:
     type: git
     url: https://github.com/ros/actionlib.git
     version: hydro-devel
-  actionlibjs:
-    type: git
-    url: https://github.com/RobotWebTools/actionlibjs.git
-    version:
   axis_camera:
     type: git
     url: https://github.com/clearpathrobotics/axis_camera.git
@@ -143,10 +139,6 @@ repositories:
     type: hg
     url: https://kforge.ros.org/robotmodel/ivcon
     version: default
-  keyboardteleopjs:
-    type: git
-    url: https://github.com/RobotWebTools/keyboardteleopjs.git
-    version:
   kobuki:
     type: git
     url: https://github.com/yujinrobot/kobuki.git
@@ -163,22 +155,10 @@ repositories:
     type: git
     url: https://github.com/ros/langs-dev.git
     version: master
-  map2djs:
-    type: git
-    url: https://github.com/RobotWebTools/map2djs.git
-    version:
-  mjpegcanvasjs:
-    type: git
-    url: https://github.com/RobotWebTools/mjpegcanvasjs.git
-    version:
   multi_level_map:
     type: git
     url: https://github.com/utexas-bwi/multi_level_map.git
     version: master
-  nav2djs:
-    type: git
-    url: https://github.com/RobotWebTools/nav2djs.git
-    version:
   nodelet_core:
     type: git
     url: https://github.com/ros/nodelet_core.git
@@ -290,10 +270,6 @@ repositories:
   roscpp_core:
     type: git
     url: https://github.com/ros/roscpp_core.git
-    version:
-  rosjs:
-    type: git
-    url: https://github.com/RobotWebTools/rosjs.git
     version:
   rospack:
     type: git

@@ -17,9 +17,6 @@ repositories:
       release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/actionlib-release.git
     version: 1.10.0-0
-  actionlibjs:
-    url: https://github.com/RobotWebTools-release/actionlibjs-release.git
-    version:
   ar_track_alvar:
     url: https://github.com/ros-gbp/ar_track_alvar-release.git
     version:
@@ -361,9 +358,6 @@ repositories:
       wiimote:
     url: https://github.com/ros-gbp/joystick_drivers-release.git
     version:
-  keyboardteleopjs:
-    url: https://github.com/RobotWebTools-release/keyboardteleopjs-release.git
-    version:
   kobuki:
     packages:
       kobuki:
@@ -412,9 +406,6 @@ repositories:
   manipulation_msgs:
     url: https://github.com/ros-gbp/manipulation_msgs-release.git
     version:
-  map2djs:
-    url: https://github.com/RobotWebTools-release/map2djs-release.git
-    version:
   message_generation:
     tags:
       release: release/hydro/{package}/{version}
@@ -430,9 +421,6 @@ repositories:
       release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/microstrain_3dmgx2_imu-release.git
     version: 1.5.7-0
-  mjpegcanvasjs:
-    url: https://github.com/RobotWebTools-release/mjpegcanvasjs-release.git
-    version:
   moveit_commander:
     url: https://github.com/ros-gbp/moveit_commander-release.git
     version:
@@ -493,9 +481,6 @@ repositories:
   moveit_setup_assistant:
     url: https://github.com/ros-gbp/moveit_setup_assistant-release.git
     version:
-  nav2djs:
-    url: https://github.com/RobotWebTools-release/nav2djs-release.git
-    version:
   nodelet_core:
     packages:
       nodelet:
@@ -517,18 +502,22 @@ repositories:
     tags:
       release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/object_recognition_core-release.git
-    version: 0.5.1-0
+    version: 0.5.2-0
   object_recognition_linemod:
+    tags:
+      release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/object_recognition_linemod-release.git
-    version:
+    version: 0.2.12-0
   object_recognition_msgs:
     tags:
       release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/object_recognition_msgs-release.git
     version: 0.3.19-0
   object_recognition_reconstruction:
+    tags:
+      release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/object_recognition_reconstruction-release.git
-    version:
+    version: 0.2.23-0
   object_recognition_renderer:
     url: https://github.com/ros-gbp/object_recognition_renderer-release.git
     version:
@@ -536,14 +525,20 @@ repositories:
     url: https://github.com/ros-gbp/object_recognition_ros-release.git
     version:
   object_recognition_tabletop:
+    tags:
+      release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/object_recognition_tabletop-release.git
-    version:
+    version: 0.2.22-0
   object_recognition_tod:
+    tags:
+      release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/object_recognition_tod-release.git
-    version:
+    version: 0.4.15-0
   object_recognition_transparent_objects:
+    tags:
+      release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/object_recognition_transparent_objects-release.git
-    version:
+    version: 0.3.15-0
   octomap:
     packages:
       octomap:
@@ -835,9 +830,6 @@ repositories:
     version: 0.3.14-0
   rosdoc_lite:
     url: https://github.com/ros-gbp/rosdoc_lite-release.git
-    version:
-  rosjs:
-    url: https://github.com/RobotWebTools-release/rosjs-release.git
     version:
   roslisp:
     url: https://github.com/ros-gbp/roslisp-release.git
