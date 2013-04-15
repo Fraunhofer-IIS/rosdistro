@@ -13,10 +13,6 @@ repositories:
     type: git
     url: https://github.com/ros/actionlib.git
     version: groovy-devel
-  actionlibjs:
-    type: git
-    url: https://github.com/RobotWebTools/actionlibjs.git
-    version: groovy-devel
   adept:
     type: svn
     url: https://swri-ros-pkg.googlecode.com/svn/trunk/adept
@@ -173,7 +169,7 @@ repositories:
     url: https://clearpath-ros-pkg.googlecode.com/svn/trunk/clearpath_turtlebot
   client_rosjava_jni:
     type: git
-    url: git@github.com:gheorghelisca/rosjava_jni.git
+    url: https://github.com/gheorghelisca/rosjava_jni.git
     version: master
   cob_calibration_data:
     type: git
@@ -554,10 +550,6 @@ repositories:
   jsk-ros-pkg:
     type: svn
     url: https://jsk-ros-pkg.svn.sourceforge.net/svnroot/jsk-ros-pkg/trunk
-  keyboardteleopjs:
-    type: git
-    url: https://github.com/RobotWebTools/keyboardteleopjs.git
-    version: groovy-devel
   knowrob:
     type: svn
     url: http://code.in.tum.de/pubsvn/knowrob/branches/release
@@ -626,10 +618,6 @@ repositories:
     type: git
     url: https://github.com/RCPRG-ros-pkg/lwr_robot.git
     version: electric
-  map2djs:
-    type: git
-    url: https://github.com/RobotWebTools/map2djs.git
-    version: groovy-devel
   map_manager_app:
     type: hg
     url: https://kforge.ros.org/pr2apps/map_managerhg
@@ -673,10 +661,6 @@ repositories:
   mini_max:
     type: svn
     url: https://vanadium-ros-pkg.googlecode.com/svn/trunk/mini_max
-  mjpegcanvasjs:
-    type: git
-    url: https://github.com/RobotWebTools/mjpegcanvasjs.git
-    version: groovy-devel
   ml_classifiers:
     type: git
     url: https://github.com/sniekum/ml_classifiers.git
@@ -740,10 +724,6 @@ repositories:
     type: git
     url: https://bitbucket.org/nasa_ros_pkg/nasa_r2_simulator
     version: master
-  nav2djs:
-    type: git
-    url: https://github.com/RobotWebTools/nav2djs.git
-    version: groovy-devel
   navigation:
     type: git
     url: https://github.com/ros-planning/navigation
@@ -1005,10 +985,6 @@ repositories:
   riq_hand:
     type: svn
     url: https://code.ros.org/svn/wg-ros-pkg/stacks/riq_hand/trunk
-  rms:
-    type: git
-    url: https://github.com/WPI-RAIL/rms.git
-    version: groovy-devel
   robot_capsule_urdf:
     type: git
     url: https://github.com/laas/robot_capsule_urdf.git
@@ -1119,10 +1095,6 @@ repositories:
   roshpit:
     type: svn
     url: https://code.ros.org/svn/ros/stacks/roshpit/trunk
-  rosjs:
-    type: git
-    url: https://github.com/RobotWebTools/rosjs.git
-    version: groovy-devel
   roslisp_common:
     type: svn
     url: https://code.ros.org/svn/ros-pkg/stacks/roslisp_common/trunk
