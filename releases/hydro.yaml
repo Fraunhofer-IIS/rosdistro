@@ -398,8 +398,10 @@ repositories:
     url: https://github.com/ros-gbp/libg2o-release.git
     version: 2013.03.21-1
   libsegwayrmp:
+    tags:
+      release: release/hydro/{package}/{version}
     url: https://github.com/segwayrmp/libsegwayrmp-release.git
-    version:
+    version: 0.2.3-2
   libsiftfast:
     url: https://github.com/start-jsk/libsiftfast-release.git
     version:
