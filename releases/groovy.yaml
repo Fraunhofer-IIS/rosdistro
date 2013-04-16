@@ -524,8 +524,6 @@ repositories:
     version: 0.3.19-0
   moveit_planners:
     packages:
-      moveit_ompl_planners_core:
-      moveit_ompl_planners_ros_plugin:
       moveit_planners:
       moveit_planners_ompl:
         subfolder: ompl
