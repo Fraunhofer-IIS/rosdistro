@@ -565,6 +565,8 @@ repositories:
         subfolder: planning
       moveit_ros_planning_interface:
         subfolder: planning_interface
+      moveit_ros_robot_interaction:
+        subfolder: robot_interaction
       moveit_ros_visualization:
         subfolder: visualization
       moveit_ros_warehouse:
@@ -572,7 +574,7 @@ repositories:
     tags:
       release: release/groovy/{package}/{version}
     url: https://github.com/ros-gbp/moveit_ros-release.git
-    version: 0.3.27-0
+    version: 0.3.28-0
   moveit_setup_assistant:
     tags:
       release: release/groovy/{package}/{version}
