@@ -527,10 +527,8 @@ repositories:
     url: https://github.com/ros-gbp/object_recognition_ros-release.git
     version:
   object_recognition_tabletop:
-    tags:
-      release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/object_recognition_tabletop-release.git
-    version: 0.2.22-0
+    version:
   object_recognition_tod:
     tags:
       release: release/hydro/{package}/{version}
