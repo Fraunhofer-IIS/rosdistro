@@ -99,6 +99,30 @@ repositories:
     type: git
     url: https://github.com/ros-visualization/qt_gui_core
     version: groovy-devel
+  rocon_app_platform:
+    type: git
+    url: https://github.com/robotics-in-concert/rocon_app_platform.git
+    version: hydro-devel
+  rocon_concert:
+    type: git
+    url: https://github.com/robotics-in-concert/rocon_concert.git
+    version: hydro-devel
+  rocon_msgs:
+    type: git
+    url: https://github.com/robotics-in-concert/rocon_msgs.git
+    version: hydro-devel
+  rocon_multimaster:
+    type: git
+    url: https://github.com/robotics-in-concert/rocon_multimaster.git
+    version: hydro-devel
+  rocon_rqt_plugins:
+    type: git
+    url: https://github.com/robotics-in-concert/rocon_rqt_plugins.git
+    version: hydro-devel
+  rocon_tutorials:
+    type: git
+    url: https://github.com/robotics-in-concert/rocon_tutorials.git
+    version: hydro-devel
   ros:
     type: git
     url: https://github.com/ros/ros.git
