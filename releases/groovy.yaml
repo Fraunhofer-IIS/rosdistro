@@ -525,14 +525,16 @@ repositories:
   moveit_planners:
     packages:
       moveit_ompl_planners_core:
-        subfolder: ompl/core
+        subfolder: remove_in_hydro/moveit_ompl_planners_core
       moveit_ompl_planners_ros_plugin:
-        subfolder: ompl/ros
+        subfolder: remove_in_hydro/moveit_ompl_planners_ros_plugin
       moveit_planners:
+      moveit_planners_ompl:
+        subfolder: ompl
     tags:
       release: release/groovy/{package}/{version}
     url: https://github.com/ros-gbp/moveit_planners-release.git
-    version: 0.3.7-0
+    version: 0.3.8-0
   moveit_pr2:
     packages:
       moveit_pr2:
@@ -553,6 +555,8 @@ repositories:
       moveit_ros:
       moveit_ros_benchmarks:
         subfolder: benchmarks
+      moveit_ros_benchmarks_gui:
+        subfolder: benchmarks_gui
       moveit_ros_manipulation:
         subfolder: manipulation
       moveit_ros_move_group:
@@ -570,7 +574,7 @@ repositories:
     tags:
       release: release/groovy/{package}/{version}
     url: https://github.com/ros-gbp/moveit_ros-release.git
-    version: 0.3.25-0
+    version: 0.3.26-0
   moveit_setup_assistant:
     tags:
       release: release/groovy/{package}/{version}
