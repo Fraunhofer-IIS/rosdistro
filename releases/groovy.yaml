@@ -514,9 +514,9 @@ repositories:
       moveit_full_pr2:
       moveit_source_build_deps:
     tags:
-      release: release/{package}/{upstream_version}
+      release: release/groovy/{package}/{version}
     url: https://github.com/ros-gbp/moveit_metapackages-release.git
-    version: 0.3.1-0
+    version: 0.3.2-0
   moveit_msgs:
     tags:
       release: release/groovy/{package}/{version}
