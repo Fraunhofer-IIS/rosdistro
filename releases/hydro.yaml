@@ -394,8 +394,10 @@ repositories:
     url: https://github.com/ros-gbp/laser_proc-release.git
     version: 0.1.2-0
   libccd:
+    tags:
+      release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/libccd-release.git
-    version:
+    version: 1.4.0-1
   libg2o:
     tags:
       release: release/hydro/{package}/{version}
