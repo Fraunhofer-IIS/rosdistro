@@ -984,8 +984,10 @@ repositories:
     url: https://github.com/laas/visp-release.git
     version:
   warehouse_ros:
+    tags:
+      release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/warehouse-release.git
-    version:
+    version: 0.7.12-0
   yujin_ocs:
     packages:
       cmd_vel_mux:
