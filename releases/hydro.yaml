@@ -670,7 +670,7 @@ repositories:
     tags:
       release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/robot_model-release.git
-    version: 1.10.4-0
+    version: 1.10.6-0
   robot_pose_publisher:
     url: https://github.com/wpi-rail-release/robot_pose_publisher-release.git
     version:
