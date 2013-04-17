@@ -283,8 +283,10 @@ repositories:
     url: https://github.com/ros-gbp/genpy-release.git
     version: 0.4.11-0
   geometric_shapes:
+    tags:
+      release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/geometric_shapes-release.git
-    version:
+    version: 0.2.6-0
   geometry:
     packages:
       eigen_conversions:
