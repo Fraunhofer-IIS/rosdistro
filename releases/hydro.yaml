@@ -527,8 +527,10 @@ repositories:
     url: https://github.com/ros-gbp/object_recognition_reconstruction-release.git
     version: 0.2.23-0
   object_recognition_renderer:
+    tags:
+      release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/object_recognition_renderer-release.git
-    version:
+    version: 0.1.11-0
   object_recognition_ros:
     url: https://github.com/ros-gbp/object_recognition_ros-release.git
     version:
