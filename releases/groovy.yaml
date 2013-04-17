@@ -524,13 +524,17 @@ repositories:
     version: 0.3.19-0
   moveit_planners:
     packages:
+      moveit_ompl_planners_core:
+        subfolder: remove_in_hydro/moveit_ompl_planners_core
+      moveit_ompl_planners_ros_plugin:
+        subfolder: remove_in_hydro/moveit_ompl_planners_ros_plugin
       moveit_planners:
       moveit_planners_ompl:
         subfolder: ompl
     tags:
       release: release/groovy/{package}/{version}
     url: https://github.com/ros-gbp/moveit_planners-release.git
-    version: 0.3.9-0
+    version: 0.3.10-0
   moveit_pr2:
     packages:
       moveit_pr2:
