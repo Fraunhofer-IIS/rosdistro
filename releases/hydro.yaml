@@ -928,8 +928,10 @@ repositories:
     url: https://github.com/ros-gbp/sql_database-release.git
     version:
   srdfdom:
+    tags:
+      release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/srdfdom-release.git
-    version:
+    version: 0.2.4-1
   std_msgs:
     tags:
       release: release/{package}/{upstream_version}
