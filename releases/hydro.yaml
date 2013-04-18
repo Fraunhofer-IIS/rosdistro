@@ -981,7 +981,7 @@ repositories:
     tags:
       release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/warehouse-release.git
-    version: 0.7.12-0
+    version: 0.7.13-0
   yujin_ocs:
     packages:
       cmd_vel_mux:
