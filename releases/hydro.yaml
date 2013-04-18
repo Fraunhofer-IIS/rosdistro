@@ -652,25 +652,17 @@ repositories:
   robot_model:
     packages:
       collada_parser:
-        subfolder: collada_parser
       collada_urdf:
-        subfolder: collada_urdf
       joint_state_publisher:
-        subfolder: joint_state_publisher
       kdl_parser:
-        subfolder: kdl_parser
       resource_retriever:
-        subfolder: resource_retriever
       robot_model:
-        subfolder: robot_model
       urdf:
-        subfolder: urdf
       urdf_parser:
-        subfolder: urdf_parser
     tags:
       release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/robot_model-release.git
-    version: 1.10.6-0
+    version: 1.10.7-0
   robot_pose_publisher:
     url: https://github.com/wpi-rail-release/robot_pose_publisher-release.git
     version:
