@@ -2,7 +2,7 @@ import os
 
 from rosdistro.verify import verify_files_parsable
 
-FILES_DIR = os.path.normpath(os.path.join(os.path.dirname(__file__), '..', 'releases'))
+FILES_DIR = os.path.normpath(os.path.join(os.path.dirname(__file__), '..'))
 
 
 def test_verify_files():
