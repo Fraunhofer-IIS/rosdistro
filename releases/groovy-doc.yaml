@@ -751,6 +751,9 @@ repositories:
     type: git
     url: https://github.com/ros/nodelet_core.git
     version: groovy-devel
+  obj_rec_surf:
+    type: svn
+    url: http://agas-ros-pkg.googlecode.com/svn/trunk/object_recognition
   object_manipulation:
     type: svn
     url: https://code.ros.org/svn/wg-ros-pkg/stacks/object_manipulation/trunk
