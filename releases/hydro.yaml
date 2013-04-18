@@ -593,7 +593,7 @@ repositories:
     tags:
       release: release/hydro/{package}/{version}
     url: https://github.com/smits/orocos-kdl-release.git
-    version: 1.1.101-0
+    version: 1.1.102-0
   pcl:
     tags:
       release: release/hydro/{package}/{version}
