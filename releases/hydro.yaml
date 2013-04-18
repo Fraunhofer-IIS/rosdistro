@@ -566,8 +566,10 @@ repositories:
     url: https://github.com/ros-gbp/octomap_ros-release.git
     version:
   ompl:
+    tags:
+      release: release/hydro/{package}/{version}
     url: https://github.com/ros-gbp/ompl-release.git
-    version:
+    version: 0.12.2002277-1
   opencv2:
     tags:
       release: release/hydro/{package}/{version}

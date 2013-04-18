@@ -682,9 +682,9 @@ repositories:
     version: 0.2.6-0
   ompl:
     tags:
-      release: release/{package}/{upstream_version}
+      release: release/groovy/{package}/{version}
     url: https://github.com/ros-gbp/ompl-release.git
-    version: 0.12.1002173-0
+    version: 0.12.1002173-1
   opencv2:
     tags:
       release: release/groovy/{package}/{version}
